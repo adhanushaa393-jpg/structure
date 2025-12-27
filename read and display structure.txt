@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct emp{
+int id;
+float sal;
+};
+int main(){
+struct emp e;
+e.id=101;
+e.sal=25000;
+printf("%d %.2f",e.id,e.sal);
+return 0;
+}
